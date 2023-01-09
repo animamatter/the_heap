@@ -3,14 +3,22 @@ use blockchainlib::{now, Block, Hashable};
 fn main() {
     println!("Hello, blockchain!");
 
-    let mut block = Block::new(0, now(), vec![0, 32], 0, "Genesis block".to_owned());
-    println!("{:?}", &block);
+    let difficulty = 0x0000ffffffffffffffffffffffffffff;
 
-    // let hash = block.hash();
+    let mut genesis_block = Block::new(
+        0,
+        now(),
+        vec![0, 32],
+        0,
+        "Genesis block".to_owned(),
+        difficulty,
+    );
 
-    // println!("{:?}", hash);
+    genesis_block.hash = genesis_block.hash();
 
-    // block.hash = hash;
+    println!("{:?}", &genesis_block);
 
-    println!("{:?}", &block);
+    genesis_block.mine();
+
+    println!("{:?}", &genesis_block);
 }
