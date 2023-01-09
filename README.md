@@ -5,6 +5,7 @@
 ### Videos
 
 - [Building a blockchain info app in rust 01](https://youtu.be/TUzKN9xFKJs)
+  [Blog 03](https://medium.com/geeklaunch/blockchain-in-rust-03-chains-checks-companion-guide-2714e1a76654)
 - [Build a cryptocurrency! - Blockchain in Rust #01: Blocks & Hashing](https://youtu.be/vJdT05zl6jk)
 
 ### Articles
