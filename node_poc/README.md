@@ -12,6 +12,27 @@ Test
 
 `HTTP_PORT=3003 P2P_PORT=5003 PEERS=ws://localhost:5002,ws://localhost:5001 yarn dev`
 
+## TODO
+
+- [ ] Find a way to share PEERS between the network without the need for a central node
+- [ ] Setup a UI where we can:
+  - [ ] create new data (entries for the BlockChain)
+  - [ ] verify data transactions (validate)
+  - [ ] see old data in the blockchain
+- [ ] Improve DX
+- [ ] Setup data format for transactions
+  - [ ] think about future proof
+  - [ ] data encryption
+  - [ ] monetization possibility
+  - [ ] encryption to the future
+  - [ ] node types
+    - [ ] nodes can include info or be anonymous
+- [ ] Setup PoC:
+  - [ ] UI with
+    - [ ] user login/signup
+    - [ ] text reporting capability
+  - [ ] Reporter and researcher nodes
+
 ## Resrouces
 
 - [TUTORIAL creator page](https://medium.com/@kashishkhullar)
